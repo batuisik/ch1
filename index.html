@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Template</title>
+    <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<header>
+    <div class="timer">
+        <div id="time_text">
+            Days left
+        </div>
+        <div id="timer_days">210</div>
+    </div>
+    <h1>Welcome on Board</h1>
+</header>
+
+<body>
+
+    <div class="parent">
+        <div class="div1"></div>
+        <div class="Fuel">Fuel :
+            <a id="result">0</a>L (Fuel Tank Capacity 12000L)
+        </div>
+        <div class="Throttle">Throttle :
+            <a4>20%</a4>
+        </div>
+        <div class="Speed">Speed :
+            <a3>35000 km/h</a3>
+        </div>
+        <div class="Acceleration">Acceleration (G-force)
+            <a9>0 m/s2</a9>
+        </div>
+        <div class="div2"> </div>
+        <div class="Gravity">Gravity
+            <a5>9.81 m/s2</a5>
+        </div>
+        <div class="Distance">Distance traveled :
+            <a4>792843 km</a4>
+        </div>
+        <div class="Atmosphere">Atmosphere:
+            <a2>101325 Pa Pressure level Ideal
+            </a2>
+        </div>
+        <div class="div3"> </div>
+        <div class="Food">Food
+            <a5>1200 Portions => 400 Days</a5>
+        </div>
+        <div class="Water">Water
+            <a5>8000L</a5>
+        </div>
+        <div class="div4"> </div>
+        <div class="GConverter">Gravity converter<br><input type="text" id="inputWeight" placeholder="Enter your weight (kg)">
+            <input type="button" id="convertNumber" value="Convert"> <br>You will weight
+            <a id="convertedWeight"></a>kg in mars !
+        </div>
+        <div class="DConverter">Mars miles to earth miles converter :<br><br>
+            <a9>Due to technical difficulties, this section is temporarily unavailable</a9>
+        </div>
+    </div>
+    <form>
+        <label>Insert Amount of Fuel (L)</label>
+        <input type="text" id="fuelAmount">
+        <input type="button" id="add" value="Add Fuel">
+    </form>
+</body>
+
+</html>

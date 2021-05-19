@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: #23272E;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+header {
+    text-align: center;
+    color: #41f3a6;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 3;
+    border-radius: 10px;
+    background-color: #2B313A;
+}
+
+.Fuel {
+    grid-area: 1 / 1 / 2 / 2;
+    margin: 10px;
+}
+
+.initialFuel {
+    grid-area: 1 / 1 / 2 / 2;
+    margin: 10px;
+}
+
+.Throttle {
+    grid-area: 1 / 2 / 2 / 3;
+    margin: 10px;
+}
+
+.Speed {
+    grid-area: 2 / 1 / 3 / 2;
+    margin: 10px;
+}
+
+.Acceleration {
+    grid-area: 2 / 2 / 3 / 3;
+    margin: 10px;
+}
+
+.div2 {
+    grid-area: 1 / 3 / 3 / 5;
+    background-color: #2B313A;
+    border-radius: 10px;
+}
+
+.Gravity {
+    grid-area: 1 / 3 / 2 / 4;
+    margin: 10px;
+}
+
+.Distance {
+    grid-area: 1 / 4 / 2 / 5;
+    margin: 10px;
+}
+
+.Atmosphere {
+    grid-area: 2 / 3 / 3 / 4;
+    margin: 10px;
+}
+
+.div3 {
+    grid-area: 3 / 1 / 5 / 3;
+    background-color: #2B313A;
+    border-radius: 10px;
+}
+
+.Food {
+    grid-area: 3 / 1 / 4 / 2;
+    margin: 10px;
+}
+
+.Water {
+    grid-area: 3 / 2 / 4 / 3;
+    margin: 10px;
+}
+
+.div4 {
+    grid-area: 3 / 3 / 5 / 5;
+    background-color: #2B313A;
+    border-radius: 10px;
+}
+
+.GConverter {
+    grid-area: 3 / 3 / 4 / 4;
+    margin: 10px;
+}
+
+.DConverter {
+    grid-area: 3 / 4 / 4 / 5;
+    margin: 10px;
+}
+
+form {
+    margin: 10px;
+    padding: 15px;
+    background-color: #2B313A;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#add {
+    margin: 10px;
+}
+
+#inputWeight {
+    margin: 5px;
+}
+
+.highlight {
+    color: #f34141;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+a3 {
+    color: #f3d841;
+}
+
+a4 {
+    color: #41e7f3;
+}
+
+a5 {
+    color: #41f379;
+}
+
+a9 {
+    color: #f34141;
+}
